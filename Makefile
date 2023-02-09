@@ -30,6 +30,7 @@ format:
 	find kernel -iname *.h -o -iname *.c -o -iname *.cpp | xargs clang-format -i
 	find drivers -iname *.h -o -iname *.c -o -iname *.cpp | xargs clang-format -i
 	find samples -iname *.h -o -iname *.c -o -iname *.cpp | xargs clang-format -i
+	find boards -iname board.h | xargs clang-format -i
 
 clean:
 	rm -rf build
