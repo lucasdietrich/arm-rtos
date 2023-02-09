@@ -1,0 +1,19 @@
+{
+    "bookmarks.saveBookmarksInProject": true,
+    "editor.rulers": [
+        80
+    ],
+    "cortex-debug.variableUseNaturalFormat": false,
+    "files.associations": {
+        "*.asm": "avr",
+        "device.h": "c",
+        "kernel.h": "c",
+        "arm_uart_drv.h": "c",
+        "cm3ds.h": "c",
+        "cmsdk_cm3.h": "c",
+        "serial_api.h": "c",
+        "objects.h": "c",
+        "gpio_object.h": "c",
+        "stdio.h": "c"
+    }
+}

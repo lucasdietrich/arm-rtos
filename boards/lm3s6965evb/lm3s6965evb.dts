@@ -1,0 +1,5 @@
+/ {
+    soc {
+        systick-clock-freq = <12000000>;
+    };
+};
